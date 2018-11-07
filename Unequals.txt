@@ -1,0 +1,38 @@
+
+FALSE
+    undefined === false 
+    undefined == false
+    undefined === 0
+    undefined == 0
+    undefined === " "
+    undefined == " "
+
+    false === 0
+
+    null === false
+    null == false
+    null === 0
+    null == 0
+    null === undefined
+
+    // Empty String, with or without spaces in the middle
+    " " === false
+    " " === 0
+
+    !" "
+
+    isNaN("32")
+
+TRUE 
+    false == 0
+    null == undefined
+
+    // Empty String, with or without spaces in the middle
+    " " == false
+    " " == 0
+    
+    !0
+    // not operator and string with NO spaces
+    !""
+    !null
+    !undefined
